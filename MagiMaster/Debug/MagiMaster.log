@@ -1,4 +1,3 @@
 ﻿  Game.cpp
-  main.cpp
-  Generating Code...
+C:\Users\c00260445\Desktop\MagiMaster\MagiMaster\Game.cpp(86,48): warning C4018: '>': signed/unsigned mismatch
   MagiMaster.vcxproj -> C:\Users\c00260445\Desktop\MagiMaster\Debug\MagiMaster.exe

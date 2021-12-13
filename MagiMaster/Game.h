@@ -3,15 +3,18 @@
 #include <iostream>
 #include <vector>
 #include "Mappings.h"
+#include "Player.h"
 
 class Game
 {
 	char nextInput;
-	std::vector<char> currentMap;
 
 	bool playing;
+	bool validInput = false;
 
 	Mappings map;
+	Map currentMap;
+	Player player;
 public:
 	Game();
 	void Start();
